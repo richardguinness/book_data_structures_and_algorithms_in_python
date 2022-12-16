@@ -1,0 +1,77 @@
+2022-05-04 12:20:29.663 | INFO     | __main__:<module>:12 - an info message
+2022-05-04 12:20:29.663 | DEBUG    | __main__:<module>:13 - Say What?!
+2022-05-04 12:20:29.666 | DEBUG    | __main__:move:130 - T1: Move from 3, upstream
+2022-05-04 12:20:29.669 | DEBUG    | __main__:move:155 - T1: Move to 2
+2022-05-04 12:20:29.669 | DEBUG    | __main__:move:130 - T1: Move from 7, downstream
+2022-05-04 12:20:29.669 | DEBUG    | __main__:move:155 - T1: Move to 8
+2022-05-04 12:20:29.670 | DEBUG    | __main__:move:130 - T3: Move from 5, downstream
+2022-05-04 12:20:29.673 | DEBUG    | __main__:move:155 - T3: Move to 6
+2022-05-04 12:20:29.673 | DEBUG    | __main__:move:130 - T3: Move from 8, downstream
+2022-05-04 12:20:29.673 | DEBUG    | __main__:move:155 - T3: Move to 9
+2022-05-04 12:20:29.674 | DEBUG    | __main__:move:130 - T4: Move from 2, downstream
+2022-05-04 12:20:29.675 | DEBUG    | __main__:move:155 - T4: Move to 3
+2022-05-04 12:20:29.675 | DEBUG    | __main__:move:130 - T4: Move from 6, upstream
+2022-05-04 12:20:29.676 | DEBUG    | __main__:move:155 - T4: Move to 5
+2022-05-04 12:20:29.676 | DEBUG    | __main__:move:130 - T4: Move from 9, downstream
+2022-05-04 12:20:29.676 | DEBUG    | __main__:move:130 - T5: Move from 3, downstream
+2022-05-04 12:20:29.677 | DEBUG    | __main__:move:155 - T5: Move to 4
+2022-05-04 12:20:29.677 | DEBUG    | __main__:move:130 - T5: Move from 5, downstream
+2022-05-04 12:20:29.679 | DEBUG    | __main__:move:155 - T5: Move to 6
+2022-05-04 12:20:29.679 | DEBUG    | __main__:move:130 - T5: Move from 9, upstream
+2022-05-04 12:20:29.679 | DEBUG    | __main__:move:155 - T5: Move to 8
+2022-05-04 12:20:29.680 | DEBUG    | __main__:move:130 - T6: Move from 0, upstream
+2022-05-04 12:20:29.681 | DEBUG    | __main__:move:130 - T6: Move from 4, upstream
+2022-05-04 12:20:29.681 | DEBUG    | __main__:move:155 - T6: Move to 3
+2022-05-04 12:20:29.681 | DEBUG    | __main__:move:130 - T6: Move from 8, downstream
+2022-05-04 12:20:29.681 | DEBUG    | __main__:move:155 - T6: Move to 9
+2022-05-04 12:20:29.682 | DEBUG    | __main__:move:130 - T7: Move from 0, upstream
+2022-05-04 12:20:29.685 | DEBUG    | __main__:move:130 - T8: Move from 0, downstream
+2022-05-04 12:20:29.686 | DEBUG    | __main__:move:155 - T8: Move to 1
+2022-05-04 12:20:29.688 | DEBUG    | __main__:move:130 - T9: Move from 3, downstream
+2022-05-04 12:20:29.689 | DEBUG    | __main__:move:155 - T9: Move to 4
+2022-05-04 12:20:29.689 | DEBUG    | __main__:move:130 - T9: Move from 9, downstream
+2022-05-04 12:20:29.690 | DEBUG    | __main__:move:130 - T10: Move from 1, downstream
+2022-05-04 12:20:29.691 | DEBUG    | __main__:move:155 - T10: Move to 2
+2022-05-04 12:20:29.692 | DEBUG    | __main__:move:130 - T10: Move from 9, downstream
+2022-05-04 12:20:29.694 | DEBUG    | __main__:move:130 - T11: Move from 2, upstream
+2022-05-04 12:20:29.694 | DEBUG    | __main__:move:155 - T11: Move to 1
+2022-05-04 12:20:29.694 | DEBUG    | __main__:move:130 - T11: Move from 9, upstream
+2022-05-04 12:20:29.695 | DEBUG    | __main__:move:155 - T11: Move to 8
+2022-05-04 12:20:29.695 | DEBUG    | __main__:move:130 - T12: Move from 6, upstream
+2022-05-04 12:20:29.697 | DEBUG    | __main__:move:155 - T12: Move to 5
+2022-05-04 12:20:29.698 | DEBUG    | __main__:move:130 - T13: Move from 1, upstream
+2022-05-04 12:20:29.699 | DEBUG    | __main__:move:155 - T13: Move to 0
+2022-05-04 12:20:29.700 | DEBUG    | __main__:move:130 - T13: Move from 4, upstream
+2022-05-04 12:20:29.700 | DEBUG    | __main__:move:155 - T13: Move to 3
+2022-05-04 12:20:29.700 | DEBUG    | __main__:move:130 - T13: Move from 5, upstream
+2022-05-04 12:20:29.701 | DEBUG    | __main__:move:155 - T13: Move to 4
+2022-05-04 12:20:29.702 | DEBUG    | __main__:move:130 - T14: Move from 3, downstream
+2022-05-04 12:20:29.703 | DEBUG    | __main__:__add__:108 - T14: Calling have_a_baby between (<class '__main__.Fish'>, 3) and (<class '__main__.Fish'>, 4)
+2022-05-04 12:20:29.703 | DEBUG    | __main__:have_a_baby:98 - Creating Fish with born=True at 2
+2022-05-04 12:20:29.703 | DEBUG    | __main__:move:130 - T14: Move from 4, downstream
+2022-05-04 12:20:29.703 | DEBUG    | __main__:move:155 - T14: Move to 5
+2022-05-04 12:20:29.704 | DEBUG    | __main__:move:130 - T14: Move from 8, upstream
+2022-05-04 12:20:29.704 | DEBUG    | __main__:move:155 - T14: Move to 7
+2022-05-04 12:20:29.705 | DEBUG    | __main__:move:130 - T15: Move from 2, downstream
+2022-05-04 12:20:29.706 | DEBUG    | __main__:__add__:108 - T15: Calling have_a_baby between (<class '__main__.Fish'>, 2) and (<class '__main__.Fish'>, 3)
+2022-05-04 12:20:29.706 | DEBUG    | __main__:have_a_baby:98 - Creating Fish with born=True at 1
+2022-05-04 12:20:29.706 | DEBUG    | __main__:move:130 - T15: Move from 3, downstream
+2022-05-04 12:20:29.706 | DEBUG    | __main__:move:155 - T15: Move to 4
+2022-05-04 12:20:29.707 | DEBUG    | __main__:move:130 - T15: Move from 7, upstream
+2022-05-04 12:20:29.707 | DEBUG    | __main__:move:155 - T15: Move to 6
+2022-05-04 12:20:29.707 | DEBUG    | __main__:move:130 - T16: Move from 0, downstream
+2022-05-04 12:20:29.708 | DEBUG    | __main__:__add__:108 - T16: Calling have_a_baby between (<class '__main__.Fish'>, 0) and (<class '__main__.Fish'>, 1)
+2022-05-04 12:20:29.709 | DEBUG    | __main__:have_a_baby:98 - Creating Fish with born=True at 3
+2022-05-04 12:20:29.709 | DEBUG    | __main__:move:130 - T16: Move from 1, downstream
+2022-05-04 12:20:29.709 | DEBUG    | __main__:__add__:108 - T16: Calling have_a_baby between (<class '__main__.Fish'>, 1) and (<class '__main__.Fish'>, 2)
+2022-05-04 12:20:29.709 | DEBUG    | __main__:have_a_baby:98 - Creating Fish with born=True at 7
+2022-05-04 12:20:29.709 | DEBUG    | __main__:move:130 - T16: Move from 2, downstream
+2022-05-04 12:20:29.709 | DEBUG    | __main__:__add__:108 - T16: Calling have_a_baby between (<class '__main__.Fish'>, 2) and (<class '__main__.Fish'>, 3)
+2022-05-04 12:20:29.710 | DEBUG    | __main__:have_a_baby:98 - Creating Fish with born=True at 8
+2022-05-04 12:20:29.710 | DEBUG    | __main__:move:130 - T16: Move from 3, upstream
+2022-05-04 12:20:29.710 | DEBUG    | __main__:__add__:108 - T16: Calling have_a_baby between (<class '__main__.Fish'>, 3) and (<class '__main__.Fish'>, 2)
+2022-05-04 12:20:29.710 | DEBUG    | __main__:have_a_baby:98 - Creating Fish with born=True at 9
+2022-05-04 12:20:29.710 | DEBUG    | __main__:move:130 - T16: Move from 6, upstream
+2022-05-04 12:20:29.710 | DEBUG    | __main__:__add__:108 - T16: Calling have_a_baby between (<class '__main__.Fish'>, 6) and (<class '__main__.Fish'>, 5)
+2022-05-04 12:20:29.710 | DEBUG    | __main__:move:130 - T16: Move from 9, upstream
+2022-05-04 12:20:29.710 | DEBUG    | __main__:__add__:108 - T16: Calling have_a_baby between (<class '__main__.Fish'>, 9) and (<class '__main__.Fish'>, 8)

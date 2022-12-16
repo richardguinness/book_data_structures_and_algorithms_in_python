@@ -1,0 +1,409 @@
+2022-12-16 11:25:48.937 | INFO     | __main__:<cell line: 23>:23 - NEW RUN STARTED
+2022-12-16 11:25:48.959 | DEBUG    | __main__:move:177 - T1: Move from 3, upstream
+2022-12-16 11:25:48.959 | DEBUG    | __main__:move:193 - T1: Add 3 to 2
+2022-12-16 11:25:48.959 | DEBUG    | __main__:move:177 - T1: Move from 4, downstream
+2022-12-16 11:25:48.959 | DEBUG    | __main__:move:193 - T1: Add 4 to 5
+2022-12-16 11:25:48.959 | DEBUG    | __main__:move:177 - T1: Move from 7, downstream
+2022-12-16 11:25:48.959 | DEBUG    | __main__:move:193 - T1: Add 7 to 8
+2022-12-16 11:25:48.959 | DEBUG    | __main__:__add__:164 - T1: Fish at 7 moves in with Bear, so is eaten
+2022-12-16 11:25:48.960 | DEBUG    | __main__:move:177 - T1: Move from 12, upstream
+2022-12-16 11:25:48.960 | DEBUG    | __main__:move:207 - T1: Move to 11
+2022-12-16 11:25:48.960 | DEBUG    | __main__:move:177 - T1: Move from 19, downstream
+2022-12-16 11:25:48.965 | DEBUG    | __main__:move:177 - T2: Move from 6, downstream
+2022-12-16 11:25:48.966 | DEBUG    | __main__:move:207 - T2: Move to 7
+2022-12-16 11:25:48.966 | DEBUG    | __main__:move:177 - T2: Move from 8, upstream
+2022-12-16 11:25:48.966 | DEBUG    | __main__:move:193 - T2: Add 8 to 7
+2022-12-16 11:25:48.966 | DEBUG    | __main__:__add__:126 - T2: Calling have_a_baby between (<class '__main__.Bear'>, 8) and (<class '__main__.Bear'>, 7)
+2022-12-16 11:25:48.967 | DEBUG    | __main__:have_a_baby:105 - Creating Bear with born=True at 9
+2022-12-16 11:25:48.967 | DEBUG    | __main__:move:177 - T2: Move from 10, upstream
+2022-12-16 11:25:48.967 | DEBUG    | __main__:move:193 - T2: Add 10 to 9
+2022-12-16 11:25:48.967 | DEBUG    | __main__:move:177 - T2: Move from 11, downstream
+2022-12-16 11:25:48.967 | DEBUG    | __main__:move:207 - T2: Move to 12
+2022-12-16 11:25:48.967 | DEBUG    | __main__:move:177 - T2: Move from 14, upstream
+2022-12-16 11:25:48.967 | DEBUG    | __main__:move:207 - T2: Move to 13
+2022-12-16 11:25:48.968 | DEBUG    | __main__:move:177 - T2: Move from 19, downstream
+2022-12-16 11:25:48.969 | DEBUG    | __main__:move:177 - T3: Move from 0, upstream
+2022-12-16 11:25:48.969 | DEBUG    | __main__:move:177 - T3: Move from 3, upstream
+2022-12-16 11:25:48.969 | DEBUG    | __main__:move:207 - T3: Move to 2
+2022-12-16 11:25:48.969 | DEBUG    | __main__:move:177 - T3: Move from 5, downstream
+2022-12-16 11:25:48.969 | DEBUG    | __main__:move:207 - T3: Move to 6
+2022-12-16 11:25:48.969 | DEBUG    | __main__:move:177 - T3: Move from 12, downstream
+2022-12-16 11:25:48.970 | DEBUG    | __main__:move:193 - T3: Add 12 to 13
+2022-12-16 11:25:48.970 | DEBUG    | __main__:__add__:155 - T3: Bear at 12 eats fish at 13
+2022-12-16 11:25:48.970 | DEBUG    | __main__:move:177 - T3: Move from 19, upstream
+2022-12-16 11:25:48.970 | DEBUG    | __main__:move:193 - T3: Add 19 to 18
+2022-12-16 11:25:48.970 | DEBUG    | __main__:__add__:155 - T3: Bear at 19 eats fish at 18
+2022-12-16 11:25:48.977 | DEBUG    | __main__:move:177 - T4: Move from 2, downstream
+2022-12-16 11:25:48.981 | DEBUG    | __main__:move:207 - T4: Move to 3
+2022-12-16 11:25:48.981 | DEBUG    | __main__:move:177 - T4: Move from 7, downstream
+2022-12-16 11:25:48.981 | DEBUG    | __main__:move:193 - T4: Add 7 to 8
+2022-12-16 11:25:48.981 | DEBUG    | __main__:move:177 - T4: Move from 13, downstream
+2022-12-16 11:25:48.982 | DEBUG    | __main__:move:207 - T4: Move to 14
+2022-12-16 11:25:48.982 | DEBUG    | __main__:move:177 - T4: Move from 18, upstream
+2022-12-16 11:25:48.982 | DEBUG    | __main__:move:207 - T4: Move to 17
+2022-12-16 11:25:48.983 | DEBUG    | __main__:move:177 - T5: Move from 3, upstream
+2022-12-16 11:25:48.988 | DEBUG    | __main__:move:207 - T5: Move to 2
+2022-12-16 11:25:48.988 | DEBUG    | __main__:move:177 - T5: Move from 8, upstream
+2022-12-16 11:25:48.988 | DEBUG    | __main__:move:207 - T5: Move to 7
+2022-12-16 11:25:48.989 | DEBUG    | __main__:move:177 - T5: Move from 10, downstream
+2022-12-16 11:25:48.989 | DEBUG    | __main__:move:207 - T5: Move to 11
+2022-12-16 11:25:48.989 | DEBUG    | __main__:move:177 - T5: Move from 14, downstream
+2022-12-16 11:25:48.989 | DEBUG    | __main__:move:207 - T5: Move to 15
+2022-12-16 11:25:48.989 | DEBUG    | __main__:move:177 - T5: Move from 17, upstream
+2022-12-16 11:25:48.989 | DEBUG    | __main__:move:207 - T5: Move to 16
+2022-12-16 11:25:48.990 | DEBUG    | __main__:move:177 - T6: Move from 7, upstream
+2022-12-16 11:25:48.991 | DEBUG    | __main__:move:193 - T6: Add 7 to 6
+2022-12-16 11:25:48.991 | DEBUG    | __main__:move:177 - T6: Move from 16, downstream
+2022-12-16 11:25:48.991 | DEBUG    | __main__:move:207 - T6: Move to 17
+2022-12-16 11:25:48.992 | DEBUG    | __main__:move:177 - T7: Move from 0, downstream
+2022-12-16 11:25:48.992 | DEBUG    | __main__:move:207 - T7: Move to 1
+2022-12-16 11:25:48.992 | DEBUG    | __main__:move:177 - T7: Move from 2, downstream
+2022-12-16 11:25:48.993 | DEBUG    | __main__:move:207 - T7: Move to 3
+2022-12-16 11:25:48.996 | DEBUG    | __main__:move:177 - T7: Move from 6, downstream
+2022-12-16 11:25:49.004 | DEBUG    | __main__:move:207 - T7: Move to 7
+2022-12-16 11:25:49.004 | DEBUG    | __main__:move:177 - T7: Move from 11, upstream
+2022-12-16 11:25:49.004 | DEBUG    | __main__:move:207 - T7: Move to 10
+2022-12-16 11:25:49.004 | DEBUG    | __main__:move:177 - T7: Move from 17, upstream
+2022-12-16 11:25:49.004 | DEBUG    | __main__:move:207 - T7: Move to 16
+2022-12-16 11:25:49.006 | DEBUG    | __main__:move:177 - T8: Move from 1, upstream
+2022-12-16 11:25:49.006 | DEBUG    | __main__:move:207 - T8: Move to 0
+2022-12-16 11:25:49.007 | DEBUG    | __main__:move:177 - T8: Move from 10, upstream
+2022-12-16 11:25:49.009 | DEBUG    | __main__:move:207 - T8: Move to 9
+2022-12-16 11:25:49.011 | DEBUG    | __main__:move:177 - T8: Move from 16, downstream
+2022-12-16 11:25:49.011 | DEBUG    | __main__:move:207 - T8: Move to 17
+2022-12-16 11:25:49.012 | DEBUG    | __main__:move:177 - T9: Move from 0, downstream
+2022-12-16 11:25:49.017 | DEBUG    | __main__:move:207 - T9: Move to 1
+2022-12-16 11:25:49.017 | DEBUG    | __main__:move:177 - T9: Move from 3, downstream
+2022-12-16 11:25:49.017 | DEBUG    | __main__:move:207 - T9: Move to 4
+2022-12-16 11:25:49.017 | DEBUG    | __main__:move:177 - T9: Move from 9, downstream
+2022-12-16 11:25:49.018 | DEBUG    | __main__:move:207 - T9: Move to 10
+2022-12-16 11:25:49.018 | DEBUG    | __main__:move:177 - T9: Move from 15, downstream
+2022-12-16 11:25:49.018 | DEBUG    | __main__:move:207 - T9: Move to 16
+2022-12-16 11:25:49.019 | DEBUG    | __main__:move:177 - T10: Move from 1, upstream
+2022-12-16 11:25:49.025 | DEBUG    | __main__:move:207 - T10: Move to 0
+2022-12-16 11:25:49.025 | DEBUG    | __main__:move:177 - T10: Move from 4, upstream
+2022-12-16 11:25:49.025 | DEBUG    | __main__:move:207 - T10: Move to 3
+2022-12-16 11:25:49.025 | DEBUG    | __main__:move:177 - T10: Move from 7, upstream
+2022-12-16 11:25:49.026 | DEBUG    | __main__:move:207 - T10: Move to 6
+2022-12-16 11:25:49.026 | DEBUG    | __main__:move:177 - T10: Move from 17, upstream
+2022-12-16 11:25:49.026 | DEBUG    | __main__:move:193 - T10: Add 17 to 16
+2022-12-16 11:25:49.026 | DEBUG    | __main__:__add__:126 - T10: Calling have_a_baby between (<class '__main__.Bear'>, 17) and (<class '__main__.Bear'>, 16)
+2022-12-16 11:25:49.026 | DEBUG    | __main__:have_a_baby:105 - Creating Bear with born=True at 18
+2022-12-16 11:25:49.029 | DEBUG    | __main__:move:177 - T11: Move from 0, upstream
+2022-12-16 11:25:49.033 | DEBUG    | __main__:move:177 - T11: Move from 6, upstream
+2022-12-16 11:25:49.033 | DEBUG    | __main__:move:207 - T11: Move to 5
+2022-12-16 11:25:49.033 | DEBUG    | __main__:move:177 - T11: Move from 10, downstream
+2022-12-16 11:25:49.033 | DEBUG    | __main__:move:207 - T11: Move to 11
+2022-12-16 11:25:49.033 | DEBUG    | __main__:move:177 - T11: Move from 16, downstream
+2022-12-16 11:25:49.033 | DEBUG    | __main__:move:193 - T11: Add 16 to 17
+2022-12-16 11:25:49.035 | DEBUG    | __main__:move:177 - T12: Move from 0, downstream
+2022-12-16 11:25:49.037 | DEBUG    | __main__:move:207 - T12: Move to 1
+2022-12-16 11:25:49.039 | DEBUG    | __main__:move:177 - T12: Move from 5, downstream
+2022-12-16 11:25:49.040 | DEBUG    | __main__:move:207 - T12: Move to 6
+2022-12-16 11:25:49.040 | DEBUG    | __main__:move:177 - T12: Move from 18, upstream
+2022-12-16 11:25:49.040 | DEBUG    | __main__:move:193 - T12: Add 18 to 17
+2022-12-16 11:25:49.041 | DEBUG    | __main__:move:177 - T13: Move from 1, upstream
+2022-12-16 11:25:49.041 | DEBUG    | __main__:move:207 - T13: Move to 0
+2022-12-16 11:25:49.041 | DEBUG    | __main__:move:177 - T13: Move from 3, upstream
+2022-12-16 11:25:49.041 | DEBUG    | __main__:move:207 - T13: Move to 2
+2022-12-16 11:25:49.041 | DEBUG    | __main__:move:177 - T13: Move from 6, upstream
+2022-12-16 11:25:49.041 | DEBUG    | __main__:move:207 - T13: Move to 5
+2022-12-16 11:25:49.041 | DEBUG    | __main__:move:177 - T13: Move from 11, downstream
+2022-12-16 11:25:49.041 | DEBUG    | __main__:move:207 - T13: Move to 12
+2022-12-16 11:25:49.042 | DEBUG    | __main__:move:177 - T13: Move from 18, downstream
+2022-12-16 11:25:49.042 | DEBUG    | __main__:move:207 - T13: Move to 19
+2022-12-16 11:25:49.042 | DEBUG    | __main__:move:177 - T14: Move from 0, upstream
+2022-12-16 11:25:49.043 | DEBUG    | __main__:move:177 - T14: Move from 5, downstream
+2022-12-16 11:25:49.043 | DEBUG    | __main__:move:207 - T14: Move to 6
+2022-12-16 11:25:49.043 | DEBUG    | __main__:move:177 - T14: Move from 12, upstream
+2022-12-16 11:25:49.043 | DEBUG    | __main__:move:207 - T14: Move to 11
+2022-12-16 11:25:49.044 | DEBUG    | __main__:move:177 - T14: Move from 19, downstream
+2022-12-16 11:25:49.047 | DEBUG    | __main__:move:177 - T15: Move from 0, upstream
+2022-12-16 11:25:49.050 | DEBUG    | __main__:move:177 - T15: Move from 2, upstream
+2022-12-16 11:25:49.053 | DEBUG    | __main__:move:207 - T15: Move to 1
+2022-12-16 11:25:49.054 | DEBUG    | __main__:move:177 - T15: Move from 6, upstream
+2022-12-16 11:25:49.054 | DEBUG    | __main__:move:207 - T15: Move to 5
+2022-12-16 11:25:49.059 | DEBUG    | __main__:move:177 - T15: Move from 11, downstream
+2022-12-16 11:25:49.059 | DEBUG    | __main__:move:207 - T15: Move to 12
+2022-12-16 11:25:49.059 | DEBUG    | __main__:move:177 - T15: Move from 19, downstream
+2022-12-16 11:25:49.064 | DEBUG    | __main__:move:177 - T16: Move from 0, upstream
+2022-12-16 11:25:49.064 | DEBUG    | __main__:move:177 - T16: Move from 1, downstream
+2022-12-16 11:25:49.064 | DEBUG    | __main__:move:207 - T16: Move to 2
+2022-12-16 11:25:49.065 | DEBUG    | __main__:move:177 - T16: Move from 5, upstream
+2022-12-16 11:25:49.065 | DEBUG    | __main__:move:207 - T16: Move to 4
+2022-12-16 11:25:49.065 | DEBUG    | __main__:move:177 - T16: Move from 12, upstream
+2022-12-16 11:25:49.065 | DEBUG    | __main__:move:207 - T16: Move to 11
+2022-12-16 11:25:49.066 | DEBUG    | __main__:move:177 - T17: Move from 4, downstream
+2022-12-16 11:25:49.066 | DEBUG    | __main__:move:207 - T17: Move to 5
+2022-12-16 11:25:49.066 | DEBUG    | __main__:move:177 - T17: Move from 11, downstream
+2022-12-16 11:25:49.067 | DEBUG    | __main__:move:207 - T17: Move to 12
+2022-12-16 11:25:49.067 | DEBUG    | __main__:move:177 - T17: Move from 19, downstream
+2022-12-16 11:25:49.068 | DEBUG    | __main__:move:177 - T18: Move from 2, upstream
+2022-12-16 11:25:49.068 | DEBUG    | __main__:move:207 - T18: Move to 1
+2022-12-16 11:25:49.069 | DEBUG    | __main__:move:177 - T19: Move from 12, upstream
+2022-12-16 11:25:49.069 | DEBUG    | __main__:move:207 - T19: Move to 11
+2022-12-16 11:25:49.069 | DEBUG    | __main__:move:177 - T19: Move from 19, upstream
+2022-12-16 11:25:49.070 | DEBUG    | __main__:move:207 - T19: Move to 18
+2022-12-16 11:25:49.071 | DEBUG    | __main__:move:177 - T20: Move from 0, upstream
+2022-12-16 11:25:49.071 | DEBUG    | __main__:move:177 - T20: Move from 1, downstream
+2022-12-16 11:25:49.071 | DEBUG    | __main__:move:207 - T20: Move to 2
+2022-12-16 11:25:49.071 | DEBUG    | __main__:move:177 - T20: Move from 11, downstream
+2022-12-16 11:25:49.071 | DEBUG    | __main__:move:207 - T20: Move to 12
+2022-12-16 11:25:49.072 | DEBUG    | __main__:move:177 - T20: Move from 18, upstream
+2022-12-16 11:25:49.072 | DEBUG    | __main__:move:207 - T20: Move to 17
+2022-12-16 11:25:49.081 | DEBUG    | __main__:move:177 - T21: Move from 0, downstream
+2022-12-16 11:25:49.081 | DEBUG    | __main__:move:207 - T21: Move to 1
+2022-12-16 11:25:49.081 | DEBUG    | __main__:move:177 - T21: Move from 5, upstream
+2022-12-16 11:25:49.081 | DEBUG    | __main__:move:207 - T21: Move to 4
+2022-12-16 11:25:49.082 | DEBUG    | __main__:move:177 - T21: Move from 12, downstream
+2022-12-16 11:25:49.082 | DEBUG    | __main__:move:207 - T21: Move to 13
+2022-12-16 11:25:49.082 | DEBUG    | __main__:move:177 - T21: Move from 17, downstream
+2022-12-16 11:25:49.082 | DEBUG    | __main__:move:207 - T21: Move to 18
+2022-12-16 11:25:49.083 | DEBUG    | __main__:move:177 - T22: Move from 1, downstream
+2022-12-16 11:25:49.083 | DEBUG    | __main__:move:193 - T22: Add 1 to 2
+2022-12-16 11:25:49.083 | DEBUG    | __main__:__add__:164 - T22: Fish at 1 moves in with Bear, so is eaten
+2022-12-16 11:25:49.083 | DEBUG    | __main__:move:177 - T22: Move from 4, downstream
+2022-12-16 11:25:49.084 | DEBUG    | __main__:move:207 - T22: Move to 5
+2022-12-16 11:25:49.084 | DEBUG    | __main__:move:177 - T22: Move from 13, upstream
+2022-12-16 11:25:49.084 | DEBUG    | __main__:move:207 - T22: Move to 12
+2022-12-16 11:25:49.085 | DEBUG    | __main__:move:177 - T23: Move from 12, downstream
+2022-12-16 11:25:49.092 | DEBUG    | __main__:move:207 - T23: Move to 13
+2022-12-16 11:25:49.094 | DEBUG    | __main__:move:177 - T25: Move from 5, downstream
+2022-12-16 11:25:49.094 | DEBUG    | __main__:move:207 - T25: Move to 6
+2022-12-16 11:25:49.095 | DEBUG    | __main__:move:177 - T25: Move from 13, upstream
+2022-12-16 11:25:49.095 | DEBUG    | __main__:move:207 - T25: Move to 12
+2022-12-16 11:25:49.095 | DEBUG    | __main__:move:177 - T25: Move from 18, downstream
+2022-12-16 11:25:49.095 | DEBUG    | __main__:move:207 - T25: Move to 19
+2022-12-16 11:25:49.105 | DEBUG    | __main__:move:177 - T26: Move from 6, upstream
+2022-12-16 11:25:49.106 | DEBUG    | __main__:move:207 - T26: Move to 5
+2022-12-16 11:25:49.106 | DEBUG    | __main__:move:177 - T26: Move from 12, upstream
+2022-12-16 11:25:49.106 | DEBUG    | __main__:move:207 - T26: Move to 11
+2022-12-16 11:25:49.106 | DEBUG    | __main__:move:177 - T26: Move from 19, upstream
+2022-12-16 11:25:49.106 | DEBUG    | __main__:move:207 - T26: Move to 18
+2022-12-16 11:25:49.108 | DEBUG    | __main__:move:177 - T28: Move from 2, upstream
+2022-12-16 11:25:49.108 | DEBUG    | __main__:move:207 - T28: Move to 1
+2022-12-16 11:25:49.108 | DEBUG    | __main__:move:177 - T28: Move from 18, downstream
+2022-12-16 11:25:49.109 | DEBUG    | __main__:move:207 - T28: Move to 19
+2022-12-16 11:25:49.110 | DEBUG    | __main__:move:177 - T29: Move from 5, downstream
+2022-12-16 11:25:49.110 | DEBUG    | __main__:move:207 - T29: Move to 6
+2022-12-16 11:25:49.111 | DEBUG    | __main__:move:177 - T29: Move from 11, upstream
+2022-12-16 11:25:49.111 | DEBUG    | __main__:move:207 - T29: Move to 10
+2022-12-16 11:25:49.111 | DEBUG    | __main__:move:177 - T29: Move from 19, upstream
+2022-12-16 11:25:49.111 | DEBUG    | __main__:move:207 - T29: Move to 18
+2022-12-16 11:25:49.112 | DEBUG    | __main__:move:177 - T30: Move from 6, downstream
+2022-12-16 11:25:49.112 | DEBUG    | __main__:move:207 - T30: Move to 7
+2022-12-16 11:25:49.112 | DEBUG    | __main__:move:177 - T30: Move from 10, upstream
+2022-12-16 11:25:49.112 | DEBUG    | __main__:move:207 - T30: Move to 9
+2022-12-16 11:25:49.113 | DEBUG    | __main__:move:177 - T31: Move from 7, upstream
+2022-12-16 11:25:49.113 | DEBUG    | __main__:move:207 - T31: Move to 6
+2022-12-16 11:25:49.114 | DEBUG    | __main__:move:177 - T31: Move from 18, downstream
+2022-12-16 11:25:49.114 | DEBUG    | __main__:move:207 - T31: Move to 19
+2022-12-16 11:25:49.130 | DEBUG    | __main__:move:177 - T32: Move from 9, downstream
+2022-12-16 11:25:49.130 | DEBUG    | __main__:move:207 - T32: Move to 10
+2022-12-16 11:25:49.130 | DEBUG    | __main__:move:177 - T32: Move from 19, downstream
+2022-12-16 11:25:49.131 | DEBUG    | __main__:move:177 - T33: Move from 1, upstream
+2022-12-16 11:25:49.132 | DEBUG    | __main__:move:207 - T33: Move to 0
+2022-12-16 11:25:49.132 | DEBUG    | __main__:move:177 - T33: Move from 6, downstream
+2022-12-16 11:25:49.132 | DEBUG    | __main__:move:207 - T33: Move to 7
+2022-12-16 11:25:49.132 | DEBUG    | __main__:move:177 - T33: Move from 10, downstream
+2022-12-16 11:25:49.132 | DEBUG    | __main__:move:207 - T33: Move to 11
+2022-12-16 11:25:49.133 | DEBUG    | __main__:move:177 - T34: Move from 19, upstream
+2022-12-16 11:25:49.133 | DEBUG    | __main__:move:207 - T34: Move to 18
+2022-12-16 11:25:49.134 | DEBUG    | __main__:move:177 - T35: Move from 11, upstream
+2022-12-16 11:25:49.135 | DEBUG    | __main__:move:207 - T35: Move to 10
+2022-12-16 11:25:49.135 | DEBUG    | __main__:move:177 - T35: Move from 18, downstream
+2022-12-16 11:25:49.135 | DEBUG    | __main__:move:207 - T35: Move to 19
+2022-12-16 11:25:49.136 | DEBUG    | __main__:move:177 - T36: Move from 0, downstream
+2022-12-16 11:25:49.136 | DEBUG    | __main__:move:207 - T36: Move to 1
+2022-12-16 11:25:49.137 | DEBUG    | __main__:move:177 - T36: Move from 7, upstream
+2022-12-16 11:25:49.137 | DEBUG    | __main__:move:207 - T36: Move to 6
+2022-12-16 11:25:49.138 | DEBUG    | __main__:move:177 - T37: Move from 10, upstream
+2022-12-16 11:25:49.138 | DEBUG    | __main__:move:207 - T37: Move to 9
+2022-12-16 11:25:49.146 | DEBUG    | __main__:move:177 - T38: Move from 19, downstream
+2022-12-16 11:25:49.147 | DEBUG    | __main__:move:177 - T39: Move from 19, upstream
+2022-12-16 11:25:49.147 | DEBUG    | __main__:move:207 - T39: Move to 18
+2022-12-16 11:25:49.148 | DEBUG    | __main__:move:177 - T40: Move from 6, upstream
+2022-12-16 11:25:49.149 | DEBUG    | __main__:move:207 - T40: Move to 5
+2022-12-16 11:25:49.149 | DEBUG    | __main__:move:177 - T40: Move from 9, upstream
+2022-12-16 11:25:49.149 | DEBUG    | __main__:move:207 - T40: Move to 8
+2022-12-16 11:25:49.149 | DEBUG    | __main__:move:177 - T40: Move from 18, downstream
+2022-12-16 11:25:49.149 | DEBUG    | __main__:move:207 - T40: Move to 19
+2022-12-16 11:25:49.150 | DEBUG    | __main__:move:177 - T41: Move from 5, upstream
+2022-12-16 11:25:49.151 | DEBUG    | __main__:move:207 - T41: Move to 4
+2022-12-16 11:25:49.151 | DEBUG    | __main__:move:177 - T41: Move from 8, downstream
+2022-12-16 11:25:49.151 | DEBUG    | __main__:move:207 - T41: Move to 9
+2022-12-16 11:25:49.151 | DEBUG    | __main__:move:177 - T41: Move from 19, upstream
+2022-12-16 11:25:49.151 | DEBUG    | __main__:move:207 - T41: Move to 18
+2022-12-16 11:25:49.152 | DEBUG    | __main__:move:177 - T42: Move from 4, downstream
+2022-12-16 11:25:49.152 | DEBUG    | __main__:move:207 - T42: Move to 5
+2022-12-16 11:25:49.153 | DEBUG    | __main__:move:177 - T43: Move from 1, upstream
+2022-12-16 11:25:49.153 | DEBUG    | __main__:move:207 - T43: Move to 0
+2022-12-16 11:25:49.153 | DEBUG    | __main__:move:177 - T43: Move from 5, upstream
+2022-12-16 11:25:49.154 | DEBUG    | __main__:move:207 - T43: Move to 4
+2022-12-16 11:25:49.154 | DEBUG    | __main__:move:177 - T43: Move from 9, downstream
+2022-12-16 11:25:49.154 | DEBUG    | __main__:move:207 - T43: Move to 10
+2022-12-16 11:25:49.154 | DEBUG    | __main__:move:177 - T43: Move from 18, upstream
+2022-12-16 11:25:49.154 | DEBUG    | __main__:move:207 - T43: Move to 17
+2022-12-16 11:25:49.163 | DEBUG    | __main__:move:177 - T44: Move from 4, upstream
+2022-12-16 11:25:49.164 | DEBUG    | __main__:move:207 - T44: Move to 3
+2022-12-16 11:25:49.164 | DEBUG    | __main__:move:177 - T44: Move from 10, upstream
+2022-12-16 11:25:49.164 | DEBUG    | __main__:move:207 - T44: Move to 9
+2022-12-16 11:25:49.165 | DEBUG    | __main__:move:177 - T45: Move from 9, upstream
+2022-12-16 11:25:49.165 | DEBUG    | __main__:move:207 - T45: Move to 8
+2022-12-16 11:25:49.166 | DEBUG    | __main__:move:177 - T46: Move from 0, upstream
+2022-12-16 11:25:49.166 | DEBUG    | __main__:move:177 - T46: Move from 3, upstream
+2022-12-16 11:25:49.167 | DEBUG    | __main__:move:207 - T46: Move to 2
+2022-12-16 11:25:49.167 | DEBUG    | __main__:move:177 - T46: Move from 8, upstream
+2022-12-16 11:25:49.167 | DEBUG    | __main__:move:207 - T46: Move to 7
+2022-12-16 11:25:49.167 | DEBUG    | __main__:move:177 - T46: Move from 17, downstream
+2022-12-16 11:25:49.167 | DEBUG    | __main__:move:207 - T46: Move to 18
+2022-12-16 11:25:49.168 | DEBUG    | __main__:move:177 - T47: Move from 2, upstream
+2022-12-16 11:25:49.169 | DEBUG    | __main__:move:207 - T47: Move to 1
+2022-12-16 11:25:49.169 | DEBUG    | __main__:move:177 - T48: Move from 18, upstream
+2022-12-16 11:25:49.170 | DEBUG    | __main__:move:207 - T48: Move to 17
+2022-12-16 11:25:49.171 | DEBUG    | __main__:move:177 - T49: Move from 0, downstream
+2022-12-16 11:25:49.171 | DEBUG    | __main__:move:193 - T49: Add 0 to 1
+2022-12-16 11:25:49.171 | DEBUG    | __main__:__add__:126 - T49: Calling have_a_baby between (<class '__main__.Bear'>, 0) and (<class '__main__.Bear'>, 1)
+2022-12-16 11:25:49.171 | DEBUG    | __main__:have_a_baby:105 - Creating Bear with born=True at 2
+2022-12-16 11:25:49.171 | DEBUG    | __main__:move:177 - T49: Move from 7, downstream
+2022-12-16 11:25:49.172 | DEBUG    | __main__:move:207 - T49: Move to 8
+2022-12-16 11:25:49.206 | DEBUG    | __main__:move:177 - T50: Move from 0, upstream
+2022-12-16 11:25:49.206 | DEBUG    | __main__:move:177 - T50: Move from 8, downstream
+2022-12-16 11:25:49.206 | DEBUG    | __main__:move:207 - T50: Move to 9
+2022-12-16 11:25:49.207 | DEBUG    | __main__:move:177 - T51: Move from 1, downstream
+2022-12-16 11:25:49.208 | DEBUG    | __main__:move:193 - T51: Add 1 to 2
+2022-12-16 11:25:49.208 | DEBUG    | __main__:move:177 - T51: Move from 9, downstream
+2022-12-16 11:25:49.208 | DEBUG    | __main__:move:207 - T51: Move to 10
+2022-12-16 11:25:49.208 | DEBUG    | __main__:move:177 - T51: Move from 17, upstream
+2022-12-16 11:25:49.208 | DEBUG    | __main__:move:207 - T51: Move to 16
+2022-12-16 11:25:49.210 | DEBUG    | __main__:move:177 - T53: Move from 10, downstream
+2022-12-16 11:25:49.210 | DEBUG    | __main__:move:207 - T53: Move to 11
+2022-12-16 11:25:49.211 | DEBUG    | __main__:move:177 - T53: Move from 16, upstream
+2022-12-16 11:25:49.211 | DEBUG    | __main__:move:207 - T53: Move to 15
+2022-12-16 11:25:49.212 | DEBUG    | __main__:move:177 - T54: Move from 0, downstream
+2022-12-16 11:25:49.212 | DEBUG    | __main__:move:207 - T54: Move to 1
+2022-12-16 11:25:49.212 | DEBUG    | __main__:move:177 - T54: Move from 15, downstream
+2022-12-16 11:25:49.212 | DEBUG    | __main__:move:207 - T54: Move to 16
+2022-12-16 11:25:49.213 | DEBUG    | __main__:move:177 - T55: Move from 2, downstream
+2022-12-16 11:25:49.213 | DEBUG    | __main__:move:207 - T55: Move to 3
+2022-12-16 11:25:49.215 | DEBUG    | __main__:move:177 - T57: Move from 16, downstream
+2022-12-16 11:25:49.216 | DEBUG    | __main__:move:207 - T57: Move to 17
+2022-12-16 11:25:49.218 | DEBUG    | __main__:move:177 - T59: Move from 3, downstream
+2022-12-16 11:25:49.218 | DEBUG    | __main__:move:207 - T59: Move to 4
+2022-12-16 11:25:49.219 | DEBUG    | __main__:move:177 - T60: Move from 1, downstream
+2022-12-16 11:25:49.229 | DEBUG    | __main__:move:207 - T60: Move to 2
+2022-12-16 11:25:49.229 | DEBUG    | __main__:move:177 - T60: Move from 4, upstream
+2022-12-16 11:25:49.230 | DEBUG    | __main__:move:207 - T60: Move to 3
+2022-12-16 11:25:49.230 | DEBUG    | __main__:move:177 - T60: Move from 11, upstream
+2022-12-16 11:25:49.230 | DEBUG    | __main__:move:207 - T60: Move to 10
+2022-12-16 11:25:49.230 | DEBUG    | __main__:move:177 - T60: Move from 17, downstream
+2022-12-16 11:25:49.230 | DEBUG    | __main__:move:207 - T60: Move to 18
+2022-12-16 11:25:49.231 | DEBUG    | __main__:move:177 - T61: Move from 2, upstream
+2022-12-16 11:25:49.231 | DEBUG    | __main__:move:207 - T61: Move to 1
+2022-12-16 11:25:49.231 | DEBUG    | __main__:move:177 - T61: Move from 18, downstream
+2022-12-16 11:25:49.232 | DEBUG    | __main__:move:207 - T61: Move to 19
+2022-12-16 11:25:49.263 | DEBUG    | __main__:move:177 - T62: Move from 10, downstream
+2022-12-16 11:25:49.263 | DEBUG    | __main__:move:207 - T62: Move to 11
+2022-12-16 11:25:49.264 | DEBUG    | __main__:move:177 - T63: Move from 1, downstream
+2022-12-16 11:25:49.264 | DEBUG    | __main__:move:207 - T63: Move to 2
+2022-12-16 11:25:49.264 | DEBUG    | __main__:move:177 - T63: Move from 3, upstream
+2022-12-16 11:25:49.264 | DEBUG    | __main__:move:193 - T63: Add 3 to 2
+2022-12-16 11:25:49.264 | DEBUG    | __main__:move:177 - T63: Move from 19, downstream
+2022-12-16 11:25:49.265 | DEBUG    | __main__:move:177 - T64: Move from 11, upstream
+2022-12-16 11:25:49.266 | DEBUG    | __main__:move:207 - T64: Move to 10
+2022-12-16 11:25:49.266 | DEBUG    | __main__:move:177 - T64: Move from 19, downstream
+2022-12-16 11:25:49.267 | DEBUG    | __main__:move:177 - T65: Move from 10, downstream
+2022-12-16 11:25:49.267 | DEBUG    | __main__:move:207 - T65: Move to 11
+2022-12-16 11:25:49.267 | DEBUG    | __main__:move:177 - T65: Move from 19, downstream
+2022-12-16 11:25:49.268 | DEBUG    | __main__:move:177 - T66: Move from 19, downstream
+2022-12-16 11:25:49.269 | DEBUG    | __main__:move:177 - T67: Move from 11, upstream
+2022-12-16 11:25:49.270 | DEBUG    | __main__:move:207 - T67: Move to 10
+2022-12-16 11:25:49.270 | DEBUG    | __main__:move:177 - T67: Move from 19, downstream
+2022-12-16 11:25:49.272 | DEBUG    | __main__:move:177 - T69: Move from 2, downstream
+2022-12-16 11:25:49.272 | DEBUG    | __main__:move:207 - T69: Move to 3
+2022-12-16 11:25:49.273 | DEBUG    | __main__:move:177 - T70: Move from 3, upstream
+2022-12-16 11:25:49.273 | DEBUG    | __main__:move:207 - T70: Move to 2
+2022-12-16 11:25:49.273 | DEBUG    | __main__:move:177 - T70: Move from 10, upstream
+2022-12-16 11:25:49.273 | DEBUG    | __main__:move:207 - T70: Move to 9
+2022-12-16 11:25:49.273 | DEBUG    | __main__:move:177 - T70: Move from 19, upstream
+2022-12-16 11:25:49.274 | DEBUG    | __main__:move:207 - T70: Move to 18
+2022-12-16 11:25:49.274 | DEBUG    | __main__:move:177 - T71: Move from 2, upstream
+2022-12-16 11:25:49.275 | DEBUG    | __main__:move:207 - T71: Move to 1
+2022-12-16 11:25:49.275 | DEBUG    | __main__:move:177 - T71: Move from 9, upstream
+2022-12-16 11:25:49.275 | DEBUG    | __main__:move:207 - T71: Move to 8
+2022-12-16 11:25:49.286 | DEBUG    | __main__:move:177 - T72: Move from 1, upstream
+2022-12-16 11:25:49.286 | DEBUG    | __main__:move:207 - T72: Move to 0
+2022-12-16 11:25:49.287 | DEBUG    | __main__:move:177 - T73: Move from 0, downstream
+2022-12-16 11:25:49.288 | DEBUG    | __main__:move:207 - T73: Move to 1
+2022-12-16 11:25:49.288 | DEBUG    | __main__:move:177 - T73: Move from 8, upstream
+2022-12-16 11:25:49.288 | DEBUG    | __main__:move:207 - T73: Move to 7
+2022-12-16 11:25:49.320 | DEBUG    | __main__:move:177 - T74: Move from 1, downstream
+2022-12-16 11:25:49.320 | DEBUG    | __main__:move:207 - T74: Move to 2
+2022-12-16 11:25:49.341 | DEBUG    | __main__:move:177 - T75: Move from 2, upstream
+2022-12-16 11:25:49.341 | DEBUG    | __main__:move:207 - T75: Move to 1
+2022-12-16 11:25:49.341 | DEBUG    | __main__:move:177 - T75: Move from 7, upstream
+2022-12-16 11:25:49.341 | DEBUG    | __main__:move:207 - T75: Move to 6
+2022-12-16 11:25:49.343 | DEBUG    | __main__:move:177 - T76: Move from 6, downstream
+2022-12-16 11:25:49.347 | DEBUG    | __main__:move:207 - T76: Move to 7
+2022-12-16 11:25:49.357 | DEBUG    | __main__:move:177 - T77: Move from 1, upstream
+2022-12-16 11:25:49.367 | DEBUG    | __main__:move:207 - T77: Move to 0
+2022-12-16 11:25:49.368 | DEBUG    | __main__:move:177 - T78: Move from 0, downstream
+2022-12-16 11:25:49.368 | DEBUG    | __main__:move:207 - T78: Move to 1
+2022-12-16 11:25:49.368 | DEBUG    | __main__:move:177 - T78: Move from 7, upstream
+2022-12-16 11:25:49.368 | DEBUG    | __main__:move:207 - T78: Move to 6
+2022-12-16 11:25:49.369 | DEBUG    | __main__:move:177 - T79: Move from 6, downstream
+2022-12-16 11:25:49.370 | DEBUG    | __main__:move:207 - T79: Move to 7
+2022-12-16 11:25:49.371 | DEBUG    | __main__:move:177 - T80: Move from 1, downstream
+2022-12-16 11:25:49.371 | DEBUG    | __main__:move:207 - T80: Move to 2
+2022-12-16 11:25:49.371 | DEBUG    | __main__:move:177 - T80: Move from 7, downstream
+2022-12-16 11:25:49.371 | DEBUG    | __main__:move:207 - T80: Move to 8
+2022-12-16 11:25:49.371 | DEBUG    | __main__:move:177 - T80: Move from 18, downstream
+2022-12-16 11:25:49.372 | DEBUG    | __main__:move:207 - T80: Move to 19
+2022-12-16 11:25:49.374 | DEBUG    | __main__:move:177 - T83: Move from 2, downstream
+2022-12-16 11:25:49.374 | DEBUG    | __main__:move:207 - T83: Move to 3
+2022-12-16 11:25:49.375 | DEBUG    | __main__:move:177 - T84: Move from 8, downstream
+2022-12-16 11:25:49.375 | DEBUG    | __main__:move:207 - T84: Move to 9
+2022-12-16 11:25:49.376 | DEBUG    | __main__:move:177 - T84: Move from 19, downstream
+2022-12-16 11:25:49.387 | DEBUG    | __main__:move:177 - T85: Move from 19, downstream
+2022-12-16 11:25:49.388 | DEBUG    | __main__:move:177 - T86: Move from 9, upstream
+2022-12-16 11:25:49.388 | DEBUG    | __main__:move:207 - T86: Move to 8
+2022-12-16 11:25:49.388 | DEBUG    | __main__:move:177 - T86: Move from 19, upstream
+2022-12-16 11:25:49.388 | DEBUG    | __main__:move:207 - T86: Move to 18
+2022-12-16 11:25:49.390 | DEBUG    | __main__:move:177 - T88: Move from 3, downstream
+2022-12-16 11:25:49.391 | DEBUG    | __main__:move:207 - T88: Move to 4
+2022-12-16 11:25:49.391 | DEBUG    | __main__:move:177 - T88: Move from 8, downstream
+2022-12-16 11:25:49.391 | DEBUG    | __main__:move:207 - T88: Move to 9
+2022-12-16 11:25:49.402 | DEBUG    | __main__:move:177 - T88: Move from 18, upstream
+2022-12-16 11:25:49.402 | DEBUG    | __main__:move:207 - T88: Move to 17
+2022-12-16 11:25:49.403 | DEBUG    | __main__:move:177 - T89: Move from 4, upstream
+2022-12-16 11:25:49.404 | DEBUG    | __main__:move:207 - T89: Move to 3
+2022-12-16 11:25:49.404 | DEBUG    | __main__:move:177 - T89: Move from 9, downstream
+2022-12-16 11:25:49.404 | DEBUG    | __main__:move:207 - T89: Move to 10
+2022-12-16 11:25:49.404 | DEBUG    | __main__:move:177 - T89: Move from 17, downstream
+2022-12-16 11:25:49.404 | DEBUG    | __main__:move:207 - T89: Move to 18
+2022-12-16 11:25:49.405 | DEBUG    | __main__:move:177 - T90: Move from 3, upstream
+2022-12-16 11:25:49.406 | DEBUG    | __main__:move:207 - T90: Move to 2
+2022-12-16 11:25:49.407 | DEBUG    | __main__:move:177 - T91: Move from 18, downstream
+2022-12-16 11:25:49.413 | DEBUG    | __main__:move:207 - T91: Move to 19
+2022-12-16 11:25:49.421 | DEBUG    | __main__:move:177 - T92: Move from 10, upstream
+2022-12-16 11:25:49.421 | DEBUG    | __main__:move:207 - T92: Move to 9
+2022-12-16 11:25:49.421 | DEBUG    | __main__:move:177 - T92: Move from 19, downstream
+2022-12-16 11:25:49.422 | DEBUG    | __main__:move:177 - T93: Move from 2, upstream
+2022-12-16 11:25:49.423 | DEBUG    | __main__:move:207 - T93: Move to 1
+2022-12-16 11:25:49.423 | DEBUG    | __main__:move:177 - T93: Move from 19, downstream
+2022-12-16 11:25:49.444 | DEBUG    | __main__:move:177 - T94: Move from 9, upstream
+2022-12-16 11:25:49.452 | DEBUG    | __main__:move:207 - T94: Move to 8
+2022-12-16 11:25:49.452 | DEBUG    | __main__:move:177 - T94: Move from 19, downstream
+2022-12-16 11:25:49.455 | DEBUG    | __main__:move:177 - T95: Move from 8, downstream
+2022-12-16 11:25:49.457 | DEBUG    | __main__:move:207 - T95: Move to 9
+2022-12-16 11:25:49.458 | DEBUG    | __main__:move:177 - T96: Move from 1, upstream
+2022-12-16 11:25:49.461 | DEBUG    | __main__:move:207 - T96: Move to 0
+2022-12-16 11:25:49.462 | DEBUG    | __main__:move:177 - T96: Move from 9, upstream
+2022-12-16 11:25:49.462 | DEBUG    | __main__:move:207 - T96: Move to 8
+2022-12-16 11:25:49.467 | DEBUG    | __main__:move:177 - T97: Move from 19, upstream
+2022-12-16 11:25:49.467 | DEBUG    | __main__:move:207 - T97: Move to 18
+2022-12-16 11:25:49.468 | DEBUG    | __main__:move:177 - T98: Move from 0, upstream
+2022-12-16 11:25:49.468 | DEBUG    | __main__:move:177 - T98: Move from 8, downstream
+2022-12-16 11:25:49.469 | DEBUG    | __main__:move:207 - T98: Move to 9
+2022-12-16 11:25:49.469 | DEBUG    | __main__:move:177 - T98: Move from 18, upstream
+2022-12-16 11:25:49.469 | DEBUG    | __main__:move:207 - T98: Move to 17
