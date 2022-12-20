@@ -1,0 +1,3 @@
+# Global ignores
+.ipynb_checkpoints
+secrets
