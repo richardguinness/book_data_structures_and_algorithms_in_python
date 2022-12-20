@@ -6,3 +6,7 @@
 
 I've really enjoyed working through [this excellent book](https://www.wiley.com/en-gb/Data+Structures+and+Algorithms+in+Python-p-9781118549582) by Michael T. Goodrich, Roberto Tamassia, Michael H. Goldwasser.
 
+Of note:
+
+- A [derivatives calculator](https://github.com/richardguinness/book_data_structures_and_algorithms_in_python/blob/master/exercises_DSAP_part_4_deriv_calc.ipynb) that takes user input
+- 
