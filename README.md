@@ -14,4 +14,4 @@ I've really enjoyed working through [this excellent book](https://www.wiley.com/
 
 - A [derivatives calculator](https://github.com/richardguinness/book_data_structures_and_algorithms_in_python/blob/master/exercises_DSAP_part_4_deriv_calc.ipynb) that takes user input
 - An [ASCII barchart generator](https://github.com/richardguinness/book_data_structures_and_algorithms_in_python/blob/master/exercises_DSAP_part_5_char_barchart.ipynb) that counts occurence of characters in some text and plots in a horizontal bar chart
-- A [river system simulator](https://github.com/richardguinness/book_data_structures_and_algorithms_in_python/blob/master/exercises_DSAP_part_8_river_sim_2.ipynb) that uses `__repr__`
+- A [river system simulator](https://github.com/richardguinness/book_data_structures_and_algorithms_in_python/blob/master/exercises_DSAP_part_8_river_sim_2.ipynb) (which uses `__repr__`)
