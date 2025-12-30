@@ -2,7 +2,7 @@
 
 ![Book cover](/assets/1118290275.jpg)
 
-I've really enjoyed working through [this excellent book](https://www.wiley.com/en-gb/Data+Structures+and+Algorithms+in+Python-p-9781118549582) by Michael T. Goodrich, Roberto Tamassia, Michael H. Goldwasser.
+I've really enjoyed working through [this excellent book](https://www.wiley.com/en-gb/Data+Structures+and+Algorithms+in+Python%2C+1st+Edition-p-9781118476734) by Michael T. Goodrich, Roberto Tamassia, Michael H. Goldwasser.
 
 ## Links
 
